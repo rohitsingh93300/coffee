@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'lottie-react'
-import coffee from '../assets/coffeeanimate.json'
+import coffee from '../assets/Coffeeanime.json'
 import Bg from '../assets/Bg.png'
 import { motion } from 'framer-motion' 
 
