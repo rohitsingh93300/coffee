@@ -34,8 +34,8 @@ const Hero = () => {
                      whileInView={{opacity:1,x:0}}
                      transition={{duration:1.4, delay:0.8}}
                     className='flex gap-2'>
-                        <Button className="bg-amber-900 hover:bg-amber-950">View Menu</Button>
-                        <Button variant='outline' className="bg-transparent text-amber-900 border border-amber-900 hover:bg-transparent z-20">Our Story</Button>
+                        <a href="#menu"><Button className="bg-amber-900 hover:bg-amber-950">View Menu</Button></a>
+                       <a href="#about"><Button variant='outline' className="bg-transparent text-amber-900 border border-amber-900 hover:bg-transparent z-20">Our Story</Button></a>
                     </motion.div>
                 </div>
                 {/* image section */}
