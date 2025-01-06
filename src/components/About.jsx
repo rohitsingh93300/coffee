@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'lottie-react'
-// import coffee from '../assets/coffeeanimate.json'
+import coffee from '../assets/coffeeanimate.json'
 import Bg from '../assets/Bg.png'
 import { motion } from 'framer-motion' 
 
@@ -24,14 +24,14 @@ const About = () => {
       className='text-amber-900 font-cursive text-5xl text-center'>About Us</motion.h1>
       <div className='flex flex-col md:flex-row items-center max-w-7xl mx-auto'>
         {/* image section */}
-        {/* <motion.div
+        <motion.div
          initial={{opacity:0, scale:0.5}}
          whileInView={{opacity:1, scale:1}}
          transition={{duration:1.5, delay:0.5}}
         >
           <Lottie 
           animationData={coffee} className='md:w-[600px]' />
-        </motion.div> */}
+        </motion.div>
         {/* text section */}
         <div className='space-y-4 px-4 md:px-0'>
           <motion.h1 
