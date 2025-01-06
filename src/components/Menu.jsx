@@ -32,7 +32,7 @@ const ServicesData = [
 const Menu = () => {
   return (
     <>
-      <span id="services"></span>
+      <span id="menu"></span>
       <div className="py-20">
         <div className="max-w-7xl mx-auto">
           {/* Heading section  */}

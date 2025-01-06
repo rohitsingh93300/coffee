@@ -16,7 +16,7 @@ const bgImage = {
 
 const About = () => {
   return (
-    <div className='md:py-20 py-40' style={bgImage}>
+    <div id='about' className='md:py-20 py-40' style={bgImage}>
       <motion.h1 
        initial={{opacity:0, y:100}}
        whileInView={{opacity:1, y:0}}

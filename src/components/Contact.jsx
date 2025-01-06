@@ -15,7 +15,7 @@ const bgImage = {
 
 const Contact = () => {
   return (
-    <div style={bgImage} className="min-h-screen bg-coffee-light text-coffee-dark flex items-center justify-center p-6">
+    <div id='contact' style={bgImage} className="min-h-screen bg-coffee-light text-coffee-dark flex items-center justify-center p-6">
       <motion.div 
        initial={{opacity:0, scale:0.5}}
        whileInView={{opacity:1, scale:1}}

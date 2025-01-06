@@ -71,7 +71,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="py-20 ">
+    <div id="testimonial" className="py-20 ">
       <div className="max-w-7xl mx-auto">
         {/* header section */}
         <div className="mb-10">

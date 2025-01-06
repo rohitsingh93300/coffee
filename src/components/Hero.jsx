@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
     return (
-        <div className='from-slate-100 to-amber-950 bg-gradient-to-r relative'>
+        <div className='from-slate-100 to-amber-950 bg-gradient-to-r relative mt-14'>
             <div className='max-w-7xl mx-auto grid  md:grid-cols-2 place-items-center h-[700px] md:h-[650px] relative pt-10 md:pt-0'>
                 {/* text section */}
                 <div className='space-y-5 px-4 md:px-0'>
